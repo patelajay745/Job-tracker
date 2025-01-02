@@ -17,7 +17,7 @@ export default function RootLayout({
         <body className={`${inter.className}`}>
           <Header />
 
-          <main className="min-h-screen">{children}</main>
+          <main className="min-h-screen w-full">{children}</main>
 
           <Toaster richColors />
         </body>
